@@ -14,6 +14,8 @@ public class PlayFabManager : MonoBehaviour
     public TMP_InputField inputPassword;
 
     // Email Register/Login
+
+    // Register
     public void RegisterButton()
     {
         if (inputPassword.text.Length < 6)
@@ -35,6 +37,7 @@ public class PlayFabManager : MonoBehaviour
         messageText.text = "Registered and logged in!";
     }
 
+    // Login
     public void LoginButton()
     {
         var request = new LoginWithEmailAddressRequest
@@ -50,6 +53,10 @@ public class PlayFabManager : MonoBehaviour
         messageText.text = "Logged in!";
         Debug.Log("Successful login/account create");
     }
+
+    // Reset Password
+
+
 
 
     // Start is called before the first frame update
