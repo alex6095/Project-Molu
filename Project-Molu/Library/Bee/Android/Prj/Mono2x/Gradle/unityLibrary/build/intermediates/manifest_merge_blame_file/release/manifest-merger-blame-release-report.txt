@@ -55,15 +55,15 @@
 32            android:name="com.unity3d.player.UnityPlayerActivity"
 32-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
 33            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-33-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:180-361
+33-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:185-366
 34            android:hardwareAccelerated="false"
-34-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:397-432
+34-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:402-437
 35            android:launchMode="singleTask"
-35-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:148-179
+35-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:153-184
 36            android:resizeableActivity="false"
-36-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:362-396
-37            android:screenOrientation="fullUser"
-37-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-147
+36-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:367-401
+37            android:screenOrientation="userLandscape"
+37-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-152
 38            android:theme="@style/UnityThemeSelector" >
 38-->/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
 39            <intent-filter>

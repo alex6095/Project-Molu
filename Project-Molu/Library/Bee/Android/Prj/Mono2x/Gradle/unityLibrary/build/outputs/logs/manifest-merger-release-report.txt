@@ -30,15 +30,15 @@ ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Be
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-11:16
 	android:screenOrientation
-		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-147
+		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-152
 	android:launchMode
-		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:148-179
+		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:153-184
 	android:hardwareAccelerated
-		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:397-432
+		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:402-437
 	android:resizeableActivity
-		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:362-396
+		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:367-401
 	android:configChanges
-		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:180-361
+		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:185-366
 	android:theme
 		ADDED from /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
 	android:name

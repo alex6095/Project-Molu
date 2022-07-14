@@ -80,8 +80,8 @@
 45-->[:unityLibrary] /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-44
 46            android:resizeableActivity="false"
 46-->[:unityLibrary] /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-47
-47            android:screenOrientation="fullUser"
-47-->[:unityLibrary] /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-49
+47            android:screenOrientation="userLandscape"
+47-->[:unityLibrary] /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-54
 48            android:theme="@style/UnityThemeSelector" >
 48-->[:unityLibrary] /Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-54
 49            <intent-filter>
