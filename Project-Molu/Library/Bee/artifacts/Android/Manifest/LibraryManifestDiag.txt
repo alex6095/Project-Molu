@@ -5,14 +5,17 @@ android.hardware.vulkan.version was added because:
 android.permission.INTERNET was added because:
 	UnityEngine.Networking was present in:
 		Unity.Services.Core.Internal-FeaturesChecked.txt
+		PlayFab-FeaturesChecked.txt
 		Unity.Services.Core.Networking-FeaturesChecked.txt
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
 	UnityEngine.Network was present in:
 		Unity.Services.Core.Internal-FeaturesChecked.txt
+		PlayFab-FeaturesChecked.txt
 		Unity.Services.Core.Networking-FeaturesChecked.txt
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
 	UnityEngine.Networking.UnityWebRequest was present in:
 		Unity.Services.Core.Internal-FeaturesChecked.txt
+		PlayFab-FeaturesChecked.txt
 		Unity.Services.Core.Networking-FeaturesChecked.txt
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
 android.permission.ACCESS_NETWORK_STATE was added because:

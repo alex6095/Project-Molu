@@ -7,6 +7,8 @@ using PlayFab.ClientModels;
 
 using TMPro;
 
+using UnityEngine.SceneManagement;
+
 public class PlayFabManager : MonoBehaviour
 {
     public TMP_Text messageText;
@@ -52,6 +54,10 @@ public class PlayFabManager : MonoBehaviour
     {
         messageText.text = "Logged in!";
         Debug.Log("Successful login/account create");
+
+        // Scene 이동 -> MainMenu
+        SceneManager.LoadScene("MainMenu");
+
     }
 
     // Reset Password
