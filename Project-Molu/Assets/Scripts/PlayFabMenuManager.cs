@@ -37,11 +37,11 @@ public class PlayFabMenuManager : MonoBehaviour
     void OnGetUserInventorySuccess(GetUserInventoryResult result)
     {
         int chrysos = result.VirtualCurrency["CP"];
-        chrysoValueText.text = "크리소 : " + chrysos.ToString();
+        chrysoValueText.text = chrysos.ToString();
 
 
         int emeralds = result.VirtualCurrency["EM"];
-        emeraldValueText.text = "에메랄드 : " + emeralds.ToString();
+        emeraldValueText.text = emeralds.ToString();
 
     }
 
@@ -79,13 +79,13 @@ public class PlayFabMenuManager : MonoBehaviour
             else
             {
                 Debug.Log("Level: " + result.Data["Lv"].Value);
-                lvText.text = "Level: " + result.Data["Lv"].Value;
+                lvText.text = result.Data["Lv"].Value;
             }
             if (result.Data == null || !result.Data.ContainsKey("Exp")) Debug.Log("No Exp");
             else
             {
                 Debug.Log("Exp: " + result.Data["Exp"].Value);
-                expText.text = "Exp: " + result.Data["Exp"].Value;
+                expText.text = result.Data["Exp"].Value+"/10";
             }
         }, (error) => {
             Debug.Log("Got error retrieving user data:");
