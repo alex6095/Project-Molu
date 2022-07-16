@@ -11,7 +11,7 @@ public class BattleUIHandler : MonoBehaviour
     GameObject HPBarObject;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         HPBarPrefab = Resources.Load("Prefabs/UI/HP_Bar") as GameObject;
     }
