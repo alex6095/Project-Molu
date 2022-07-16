@@ -1,0 +1,651 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Animations.meta
+    - Assets/Animations/Animators.meta
+    - Assets/Animations/Animators/CharacherMovement.controller
+    - Assets/Animations/Animators/CharacherMovement.controller.meta
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Animations.meta
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Animations/Berserker@Idle.FBX
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Animations/Berserker@Idle.FBX.meta
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/BerserkerFighterMecanimAnimationPackReadme.pdf
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/BerserkerFighterMecanimAnimationPackReadme.pdf.meta
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Characters/Berserker.FBX
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Characters/Berserker.FBX.meta
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Prefabs/Berserker
+      Animation Controller.controller
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Prefabs/Berserker
+      Animation Controller.controller.meta
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Prefabs/Berserker.prefab
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Prefabs/Berserker.prefab.meta
+    - Assets/Fighter Pack Bundle FREE/Berserker Fighter Mecanim Animation Pack FREE/Textures.meta
+    - Assets/Fighter Pack Bundle FREE/Camera/Controls.psd
+    - Assets/Fighter Pack Bundle FREE/Camera/Controls.psd.meta
+    - Assets/Fighter Pack Bundle FREE/Camera/Controls3.psd
+    - Assets/Fighter Pack Bundle FREE/Camera/Controls3.psd.meta
+    - Assets/Fighter Pack Bundle FREE/Camera/Grid.mat
+    - Assets/Fighter Pack Bundle FREE/Camera/Grid.mat.meta
+    - Assets/Fighter Pack Bundle FREE/Camera/Grid.psd
+    - Assets/Fighter Pack Bundle FREE/Camera/Grid.psd.meta
+    - Assets/Fighter Pack Bundle FREE/Code/CameraControl.cs
+    - Assets/Fighter Pack Bundle FREE/Code/CameraControl.cs.meta
+    - Assets/Fighter Pack Bundle FREE/Code/FighterAnimationDemoFREE.cs
+    - Assets/Fighter Pack Bundle FREE/Code/FighterAnimationDemoFREE.cs.meta
+    - Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Animations/Female@Punch.FBX.meta
+    - Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Characters.meta
+    - Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Prefabs.meta
+    - Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Prefabs/Female
+      Animation Controller.controller
+    - Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Prefabs/Female
+      Animation Controller.controller.meta
+    - Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Textures/Female.psd
+    - Assets/Fighter Pack Bundle FREE/Female Fighter Mecanim Animation Pack FREE/Textures/Female.psd.meta
+    - Assets/Fighter Pack Bundle FREE/Heavy Fighter Mecanim Animation Pack FREE/Animations/Heavy@WalkBackward.FBX
+    - Assets/Fighter Pack Bundle FREE/Heavy Fighter Mecanim Animation Pack FREE/Animations/Heavy@WalkBackward.FBX.meta
+    - Assets/Fighter Pack Bundle FREE/Heavy Fighter Mecanim Animation Pack FREE/Scenes/HeavySettings.lighting.meta
+    - Assets/Fighter Pack Bundle FREE/Heavy Fighter Mecanim Animation Pack FREE/Textures.meta
+    - Assets/Fighter Pack Bundle FREE/Male Fighter Mecanim Animation Pack FREE/Animations/Male@WalkBackward.FBX
+    - Assets/Fighter Pack Bundle FREE/Male Fighter Mecanim Animation Pack FREE/Animations/Male@WalkBackward.FBX.meta
+    - Assets/Fighter Pack Bundle FREE/Male Fighter Mecanim Animation Pack FREE/Scenes/Male.unity
+    - Assets/Fighter Pack Bundle FREE/Male Fighter Mecanim Animation Pack FREE/Scenes/Male.unity.meta
+    - Assets/Fighter Pack Bundle FREE/Male Fighter Mecanim Animation Pack FREE/Scenes/MaleSettings.lighting.meta
+    - Assets/Pandazole_Ultimate_Pack.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Materials.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Axe_01.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Axe_01.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/BaseballBat_01.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/BaseballBat_01.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Demos.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Demos/Pandazole
+      Simple Game.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Demos/Pandazole
+      Simple Game.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Demos/SGP_Demo.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Demos/SGP_Demo.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Env_Motel_01.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Food_Apple.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Food_Carrot.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Food_Carrot.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/GasTank.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/GroundBase_01.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/GroundBase_01.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Knife_01.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Knife_01.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_Intel_01.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_ModernTV.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_ModernTV.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_RoofWindow_01.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_RoofWindow_01.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_TV_Table.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_TV_Table.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_WallShelf_01.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/Prop_WallShelf_01.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/WallCShape_01.fbx
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Models/WallCShape_01.fbx.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Arrow_01.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Arrow_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Bow_01.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Bow_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Demo/SGP_Demo.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Demo/SGP_Demo.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Motel_01.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Motel_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_End_02.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_End_02.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Env_Road_Straight_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Food_Egg.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Knife_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Book_01.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Book_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Carpet_01.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Carpet_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_StreetSign_TrafficSignals.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_StreetSign_TrafficSignals.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TV_Table.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TV_Table.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Table_01.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_Table_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TrashCan_01.prefab
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/Prop_TrashCan_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Prefabs/WallCShape_01.prefab.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Scenes.meta
+    - Assets/Pandazole_Ultimate_Pack/Pandazole Simple Game Pack/Textures/PandaMat.png.meta
+    - Assets/SD Unity-Chan Haon Custom.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/Adv.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/Adv/Adv Emotion 4.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/Adv/Adv Emotion 4.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C Run Curve Set.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C Run Curve Set.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C StandA Idle.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C StandA Idle.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C StandB.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C StandB.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C Walk Curve Set.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C Walk Curve Set.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C Walk Front@Loop.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/C Walk Front@Loop.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/LS/LS Emotion 1.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/LS/LS Emotion 1.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/_Bundle/Bundle WGS 2.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/_Bundle/Bundle WGS 2.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/_Bundle/Dummy Motions.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/_Bundle/Dummy Motions.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/_Bundle/bundle animation
+      1 axe pickax shovel.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/_Bundle/bundle animation
+      1 axe pickax shovel.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/_Bundle/bundle animation
+      6 fishingrob.controller
+    - Assets/SD Unity-Chan Haon Custom/Animation Controller/_Bundle/bundle animation
+      6 fishingrob.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Setting.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Setting/_Humanoid And Add-Bone LS
+      PropB.mask
+    - Assets/SD Unity-Chan Haon Custom/Animation Setting/_Humanoid And Add-Bone LS
+      PropB.mask.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Setting/_Humanoid And Add-Bone LS
+      PropC Umbrella On-off.mask
+    - Assets/SD Unity-Chan Haon Custom/Animation Setting/_Humanoid And Add-Bone LS
+      PropC Umbrella On-off.mask.meta
+    - Assets/SD Unity-Chan Haon Custom/Animation Setting/_Humanoid and Add-Bone Mask
+      Base.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animation Setting/_Humanoid and Add-Bone Mask
+      Base.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Action Adventure(Adv).meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Common/RunA_Curve_FrontRight.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/Common/RunA_Curve_FrontRight.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Common/RunA_Front.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/Common/RunA_Front.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Common/WalkA_Curve_FrontLeft.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/Common/WalkA_Curve_FrontLeft.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropA.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropA/RunA(PropA).FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropA/RunA(PropA).FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropA/StandB(PropA).FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropA/StandB(PropA).FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropB.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropB/StandB(PropB) 
+      rigProp.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropB/StandB(PropB) 
+      rigProp.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropC/WalkA(PropC).FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/Life Simulation(LS)/PropC/WalkA(PropC).FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Greatsword(WGS)/WGS_Stand.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Greatsword(WGS)/WGS_Stand.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Twin dagger(WTD).meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Twin dagger(WTD)/WTD_AttackA
+      np.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Twin dagger(WTD)/WTD_AttackA
+      np.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Twin dagger(WTD)/WTD_Run_Front.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Twin dagger(WTD)/WTD_Run_Front.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Twin dagger(WTD)/WTD_Stand.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Twin dagger(WTD)/WTD_Stand.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Twin dagger(WTD)/WTD_Walk_Front.FBX
+    - Assets/SD Unity-Chan Haon Custom/Animations/WeaponMaster Twin dagger(WTD)/WTD_Walk_Front.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Accessory/Accessory_00_16.mat
+    - Assets/SD Unity-Chan Haon Custom/Materials/Accessory/Accessory_00_16.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Accessory/Accessory_01_00.mat
+    - Assets/SD Unity-Chan Haon Custom/Materials/Accessory/Accessory_01_00.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Costume.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Eye/EyeLight_00.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Eye/Eye_01.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Hair/Hair_00/Hair_00_34.mat
+    - Assets/SD Unity-Chan Haon Custom/Materials/Hair/Hair_00/Hair_00_34.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Hair/Hair_02/Hair_02_00.mat
+    - Assets/SD Unity-Chan Haon Custom/Materials/Hair/Hair_02/Hair_02_00.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Hair/Hair_02/Hair_02_14.mat
+    - Assets/SD Unity-Chan Haon Custom/Materials/Hair/Hair_02/Hair_02_14.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Prop.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/Prop/Prop_04.mat
+    - Assets/SD Unity-Chan Haon Custom/Materials/Prop/Prop_04.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/RigProp/RigProp_R_Umbrella_01_10.mat
+    - Assets/SD Unity-Chan Haon Custom/Materials/RigProp/RigProp_R_Umbrella_01_10.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/_PSD/(psd) Costume_02and03.mat
+    - Assets/SD Unity-Chan Haon Custom/Materials/_PSD/(psd) Costume_02and03.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/_PSD/(psd) Eye_02.mat
+    - Assets/SD Unity-Chan Haon Custom/Materials/_PSD/(psd) Eye_02.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Materials/_PSD/(psd) Hair_01.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/Models.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Parts/Accessory_01.fbx
+    - Assets/SD Unity-Chan Haon Custom/Models/Parts/Accessory_01.fbx.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Parts/Costume_02.fbx.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Parts/EyeLight_01_R.fbx
+    - Assets/SD Unity-Chan Haon Custom/Models/Parts/EyeLight_01_R.fbx.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Parts/Eye_01_L.fbx.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Parts/Face_02.fbx.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Parts/Hair_00_Base.fbx.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Prop.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Prop/Prop_R_Axe_00_dummy.FBX
+    - Assets/SD Unity-Chan Haon Custom/Models/Prop/Prop_R_Axe_00_dummy.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Prop/Prop_R_Pickax_00_dummy.FBX
+    - Assets/SD Unity-Chan Haon Custom/Models/Prop/Prop_R_Pickax_00_dummy.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/Prop/Prop_R_Shovel_00_dummy.FBX
+    - Assets/SD Unity-Chan Haon Custom/Models/Prop/Prop_R_Shovel_00_dummy.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/rigProp.meta
+    - Assets/SD Unity-Chan Haon Custom/Models/rigProp/RigProp_R_Umbrella_00_dummy.FBX
+    - Assets/SD Unity-Chan Haon Custom/Models/rigProp/RigProp_R_Umbrella_00_dummy.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Accessory.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Accessory/Accessory_02.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Accessory/Accessory_02.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Costume/Costume_01.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Costume/Costume_01.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Eye.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Eye/EyeLight_01_L.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Eye/EyeLight_01_L.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Eye/Eye_00_L.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Eye/Eye_00_L.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Eye/Eye_01_L Set.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Eye/Eye_01_L Set.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Face/Face_00 BlendShapes.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Face/Face_00 BlendShapes.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Face/Face_01 BlendShapes.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Face/Face_01 BlendShapes.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Hair/Hair_00_Front.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Hair/Hair_00_Front.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Hair/Hair_01_Base.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Hair/Hair_01_Base.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Prop.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Prop/Prop_03_GreatSword.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Prop/Prop_03_GreatSword.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Prop/Prop_04_R_TwinDagger.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Set/LS Preview SD Unity-chan.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Set/LS Preview SD Unity-chan.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Misaki.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan.prefab
+    - Assets/SD Unity-Chan Haon Custom/Prefabs/Set/Set Costume_02 SD Unity-Chan.prefab.meta
+    - Assets/SD Unity-Chan Haon Custom/Scenes/Catalog - Haon SD Series.unity
+    - Assets/SD Unity-Chan Haon Custom/Scenes/Catalog - Haon SD Series.unity.meta
+    - Assets/SD Unity-Chan Haon Custom/Scenes/Preview Bundle.unity
+    - Assets/SD Unity-Chan Haon Custom/Scenes/Preview Bundle.unity.meta
+    - Assets/SD Unity-Chan Haon Custom/Scenes/_Guide/3 RigProp Setting.unity
+    - Assets/SD Unity-Chan Haon Custom/Scenes/_Guide/3 RigProp Setting.unity.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Editor.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Editor/RemoveUnusedMaterialProperties.cs
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Editor/RemoveUnusedMaterialProperties.cs.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Editor/RemoveUnusedShaderKeywordsFromUTS2Material.cs
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Editor/RemoveUnusedShaderKeywordsFromUTS2Material.cs.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/README.txt
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/README.txt.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_DoubleShadeWithFeather_Tess.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_DoubleShadeWithFeather_Tess.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_Tess_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_Tess_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_Transparent_Tess.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_Transparent_Tess.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_Transparent_Tess_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/ToonColor_ShadingGradeMap_Transparent_Tess_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_Tess.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_Tess.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_AngelRing_Tess.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_AngelRing_Tess.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_Tess_Light_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_Tess_Light_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_Tess_Light_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_Tess_Light_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_Tess_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_Tess_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_TransClipping_Tess.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_TransClipping_Tess.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/UCTS_DoubleShadeWithFeather_tess.cginc
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/UCTS_DoubleShadeWithFeather_tess.cginc.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/UCTS_ShadingGradeMap_tess.cginc
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Tess/UCTS_ShadingGradeMap_tess.cginc.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_DoubleShadeWithFeather_Clipping.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_DoubleShadeWithFeather_Clipping.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_DoubleShadeWithFeather_Clipping_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_DoubleShadeWithFeather_Clipping_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_DoubleShadeWithFeather_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_DoubleShadeWithFeather_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_AngelRing.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_AngelRing.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_AngelRing_TransClipping.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_AngelRing_TransClipping.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_TransClipping.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_TransClipping.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_TransClipping_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_TransClipping_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_Transparent_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/ToonColor_ShadingGradeMap_Transparent_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Mobile.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Mobile.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Mobile_Clipping.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Mobile_Clipping.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Mobile_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_Mobile_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_TransClipping.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_TransClipping.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_TransClipping_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_TransClipping_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_OutlineObject_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_OutlineObject_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_AngelRing.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_AngelRing.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_AngelRing_Mobile_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_AngelRing_Mobile_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_Mobile.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_Mobile.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_Mobile_StencilOut.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_Mobile_StencilOut.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_Mobile_TransClipping.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_Mobile_TransClipping.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_TransClipping.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_TransClipping.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_TransClipping_StencilMask.shader
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/Toon_ShadingGradeMap_TransClipping_StencilMask.shader.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/UCTS_Outline.cginc
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/UCTS_Outline.cginc.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/UCTS_Outline2.cginc
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/UCTS_Outline2.cginc.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/UCTS_ShadingGradeMap.cginc
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/UCTS_ShadingGradeMap.cginc.meta
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/UCTS_ShadowCaster.cginc
+    - Assets/SD Unity-Chan Haon Custom/Shader/Unity-chan Toon Shader Ver 2.0.6/UCTS_ShadowCaster.cginc.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Costume.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Costume/Costume_02_00.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Costume/Costume_02_00.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Costume/Costume_02_10.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Costume/Costume_02_10.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eye.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eye/Eye_00_00.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eye/Eye_00_00.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eye/Eye_00_20.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eye/Eye_00_20.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eye/Eye_01_00.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eye/Eye_01_00.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eye/eyeball_eyelight_TextureGuide.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eye/eyeball_eyelight_TextureGuide.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eyeblow.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eyeblow/Eyeblow_00_00.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eyeblow/Eyeblow_00_00.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eyeblow/Eyeblow_00_24.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eyeblow/Eyeblow_00_24.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eyeblow/Eyeblow_00_34.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Eyeblow/Eyeblow_00_34.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Faceskin/FaceSkin_00_00.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Hair/Hair_00_14.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Hair/Hair_00_14.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Hair/Hair_01_00.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Hair/Hair_01_00.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Hair/Hair_01_14.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Hair/Hair_01_14.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Hair/Hair_02_14.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/Hair/Hair_02_14.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/Prop/Prop_04_Manteau_00_00.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/RigProp.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog 1.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog 1.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 01.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 01.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 02.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 02.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 03.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 03.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 04.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 04.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 11.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/_Catalog/Catalog Card 11.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_PSD/(psd)Accessory_01.psd
+    - Assets/SD Unity-Chan Haon Custom/Texture/_PSD/(psd)Accessory_01.psd.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_PSD/(psd)Accessory_02.psd.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_PSD/(psd)Eye_00.psd
+    - Assets/SD Unity-Chan Haon Custom/Texture/_PSD/(psd)Eye_00.psd.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/_PSD/(psd)Hair_00_subAB.psd
+    - Assets/SD Unity-Chan Haon Custom/Texture/_PSD/(psd)Hair_00_subAB.psd.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/accessory/Accessory_00_00.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/accessory/Accessory_00_00.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/accessory/Accessory_00_03.png.meta
+    - Assets/SD Unity-Chan Haon Custom/Texture/accessory/Accessory_01_00.png
+    - Assets/SD Unity-Chan Haon Custom/Texture/accessory/Accessory_01_00.png.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Animation Controller/Dummy Cube.controller
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Animation Controller/Dummy Cube.controller.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Animation.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Animation/Guide Tose - RunA_Front 1.FBX
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Animation/Guide Tose - RunA_Front 1.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/11 - Default.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/11 - Default.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Catalog Card 01.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Catalog Card 01.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Catalog Card 05.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_03.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_03.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_04.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_04.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_09.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_09.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_13.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_13.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_14.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_License.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Guide_License.mat.meta
+    - "Assets/SD Unity-Chan Haon Custom/_Guide/Materials/How to Differentiate \u2018FaceSkin\u2019
+      and \u2018FaceSkinHead\u2019. 1.mat"
+    - "Assets/SD Unity-Chan Haon Custom/_Guide/Materials/How to Differentiate \u2018FaceSkin\u2019
+      and \u2018FaceSkinHead\u2019. 1.mat.meta"
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Tpose.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Tpose.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Tpose2.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Tpose2.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Tpose4.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/Tpose4.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Materials/preview_plan A.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Models.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Models/GuideObect.FBX
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Models/GuideObect.FBX.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Models/GuideObject_Plus.fbx
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Models/GuideObject_Plus.fbx.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Face_BlendShapes.png
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Face_BlendShapes.png.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Install Spring Script 03.png
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Install Spring Script 03.png.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Install Spring Script 06.png
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Install Spring Script 06.png.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Materials.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Materials/Install Spring Script
+      02.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Materials/Install Spring Script
+      02.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Materials/Install Spring Script
+      03.mat
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Materials/Install Spring Script
+      03.mat.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Tpose2.png
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Tpose2.png.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Tpose3.png
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/Tpose3.png.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/_maskGuide.png
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/_maskGuide.png.meta
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/skinhead.png
+    - Assets/SD Unity-Chan Haon Custom/_Guide/Texture/skinhead.png.meta
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0.meta
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/English.meta
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/English/02Unity-Chan License
+      Terms and Condition_Summary_EN_UCL2.0.pdf
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/English/02Unity-Chan License
+      Terms and Condition_Summary_EN_UCL2.0.pdf.meta
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/English/03Indication of License_EN_UCL2.0.pdf
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/English/03Indication of License_EN_UCL2.0.pdf.meta
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/License Logo/LUUL_LOGO_rules02.ai
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/License Logo/LUUL_LOGO_rules02.ai.meta
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/License Logo/LUUL_LOGO_rules02.psd
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/License Logo/LUUL_LOGO_rules02.psd.meta
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/License Logo/Others/svg/Light_Silhouette.svg
+    - Assets/SD Unity-Chan Haon Custom/_License/UCL2.0/License Logo/Others/svg/Light_Silhouette.svg.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Authentication.unity
+    - Assets/Scenes/Authentication.unity.meta
+    - Assets/Scenes/BattleScene.unity
+    - Assets/Scenes/BattleScene.unity.meta
+    - Assets/Scenes/MainMenu.unity
+    - Assets/Scenes/MainMenu.unity.meta
+    - Assets/Scripts.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
