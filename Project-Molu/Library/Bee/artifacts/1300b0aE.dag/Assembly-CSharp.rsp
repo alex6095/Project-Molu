@@ -119,6 +119,10 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:PHOTON_UNITY_NETWORKING
+-define:PUN_2_0_OR_NEWER
+-define:PUN_2_OR_NEWER
+-define:PUN_2_19_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
@@ -328,9 +332,21 @@
 -r:"/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
+-r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonChat.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonRealtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Demos.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.Culling.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PlayFab.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PlayFabEditorExtensions.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PlayFabSDKEditor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PunDemos.DemoHubEditor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PunDemos.DemoSlotcarEditor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
@@ -366,13 +382,29 @@
 "Assets/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs"
 "Assets/Fighter Pack Bundle FREE/Code/CameraControl.cs"
 "Assets/Fighter Pack Bundle FREE/Code/FighterAnimationDemoFREE.cs"
+"Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
+"Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
+"Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"
+"Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/AppSettingsExtensions.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/ChannelSelector.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs"
+"Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
+"Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
+"Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/Ally.cs"
 "Assets/Scripts/BasicAttackTrigger.cs"
 "Assets/Scripts/BattleManager.cs"
 "Assets/Scripts/BattleStartButton.cs"
 "Assets/Scripts/BattleUIHandler.cs"
 "Assets/Scripts/Enemy.cs"
+"Assets/Scripts/GoContents.cs"
 "Assets/Scripts/HPBarHandler.cs"
+"Assets/Scripts/PhotonManager.cs"
 "Assets/Scripts/PlaceCharacterButton.cs"
 "Assets/Scripts/PlayFabAuthManager.cs"
 "Assets/Scripts/PlayFabMenuManager.cs"
