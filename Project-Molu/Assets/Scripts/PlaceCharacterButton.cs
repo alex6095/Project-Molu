@@ -15,7 +15,7 @@ public class PlaceCharacterButton : MonoBehaviour, IDragHandler, IPointerUpHandl
     // Start is called before the first frame update
     void Start()
     {
-        characterPrefab = Resources.Load("Prefabs/Characters/Unity-chan") as GameObject;
+        characterPrefab = Resources.Load("Prefabs/Characters/Ally/Unity-chan") as GameObject;
 
         blackCover = transform.GetChild(0).gameObject;
         blackCover.SetActive(false);
@@ -34,7 +34,7 @@ public class PlaceCharacterButton : MonoBehaviour, IDragHandler, IPointerUpHandl
         {
             characterObject = Instantiate(characterPrefab);
             characterObject.tag = "Ally";
-            int layerMask = 1 << LayerMask.NameToLayer("Ground");
+            int layerMask = 1 << LayerMask.NameToLayer("Ally Place Range");
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
             {
@@ -50,7 +50,7 @@ public class PlaceCharacterButton : MonoBehaviour, IDragHandler, IPointerUpHandl
     {
         if (isActiveState)
         {
-            int layerMask = 1 << LayerMask.NameToLayer("Ground");
+            int layerMask = 1 << LayerMask.NameToLayer("Ally Place Range");
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
             {
@@ -61,10 +61,9 @@ public class PlaceCharacterButton : MonoBehaviour, IDragHandler, IPointerUpHandl
 
     public void OnPointerUp(PointerEventData eventData)
     {
-
         if (isActiveState)
         {
-            int layerMask = 1 << LayerMask.NameToLayer("Ground");
+            int layerMask = 1 << LayerMask.NameToLayer("Ally Place Range");
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
             {

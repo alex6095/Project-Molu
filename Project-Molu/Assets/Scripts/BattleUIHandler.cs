@@ -27,6 +27,7 @@ public class BattleUIHandler : MonoBehaviour
         ally = BattleManager.Instance.GetAlly();
         enemy = BattleManager.Instance.GetEnemy();
 
+        print(HPBarPrefab.name);
         for (int i = 0; i < ally.Length; i++)
         {
             HPBarObject = Instantiate(HPBarPrefab);

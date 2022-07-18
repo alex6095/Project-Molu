@@ -11,6 +11,7 @@ public class BattleManager : MonoBehaviour
     public GameObject[] enemy;
     public GameObject placeCanvas;
     public GameObject battleCanvas;
+    public GameObject gameOverCanvas;
 
     private void Awake()
     {
@@ -21,7 +22,7 @@ public class BattleManager : MonoBehaviour
         // 인스턴스가 존재하는 경우 새로생기는 인스턴스를 삭제한다.
         else
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 
@@ -30,6 +31,9 @@ public class BattleManager : MonoBehaviour
         isBattlePhase = false;
         placeCanvas.SetActive(true);
         battleCanvas.SetActive(false);
+        gameOverCanvas.SetActive(false);
+
+        
     }
 
     public static BattleManager Instance
@@ -51,7 +55,8 @@ public class BattleManager : MonoBehaviour
         enemy = GameObject.FindGameObjectsWithTag("Enemy");
         placeCanvas.SetActive(false);
         battleCanvas.SetActive(true);
-        battleCanvas.GetComponent<BattleUIHandler>().BattleStarted();
+        battleCanvas.GetComponent<BattleCanvas>().BattleStarted();
+        gameOverCanvas.SetActive(false);
     }
 
     public bool IsBattlePhase()
@@ -67,5 +72,13 @@ public class BattleManager : MonoBehaviour
     public GameObject[] GetEnemy()
     {
         return enemy;
+    }
+
+    public void GameOver(bool isWin)
+    {
+        placeCanvas.SetActive(false);
+        battleCanvas.SetActive(false);
+        gameOverCanvas.SetActive(true);
+        gameOverCanvas.GetComponent<GameOverCanvas>().IsWin(isWin);
     }
 }

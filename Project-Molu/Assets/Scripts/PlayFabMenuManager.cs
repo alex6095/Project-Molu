@@ -85,7 +85,7 @@ public class PlayFabMenuManager : MonoBehaviour
             else
             {
                 Debug.Log("Exp: " + result.Data["Exp"].Value);
-                expText.text = result.Data["Exp"].Value+"/10";
+                expText.text = result.Data["Exp"].Value + "/10";
             }
         }, (error) => {
             Debug.Log("Got error retrieving user data:");

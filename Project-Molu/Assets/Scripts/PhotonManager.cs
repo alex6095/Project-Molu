@@ -33,14 +33,15 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
 
         // 포톤 서버 접속
-        PhotonNetwork.ConnectUsingSettings();
+        //PhotonNetwork.ConnectUsingSettings();
 
     }
 
     public void FindMatch()
     {
         Debug.Log("Check");
-        PhotonNetwork.JoinRandomRoom();
+        //PhotonNetwork.JoinRandomRoom();
+        PhotonNetwork.ConnectUsingSettings();
     }
 
     // 포톤 서버에 접속 후 호출되는 콜백 함수
@@ -58,7 +59,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         Debug.Log($"PhotonNetwork.InLobby = {PhotonNetwork.InLobby}");
         //PhotonNetwork.JoinRandomOrCreateRoom
 
-        //PhotonNetwork.JoinRandomRoom();
+        PhotonNetwork.JoinRandomRoom();
 
         //base.OnJoinedLobby();
     }

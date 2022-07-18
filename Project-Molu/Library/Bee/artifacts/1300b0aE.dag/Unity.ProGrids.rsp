@@ -347,8 +347,8 @@
 -r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.progrids@3.0.3-preview.4/Runtime/IgnoreSnap.cs"
-"Library/PackageCache/com.unity.progrids@3.0.3-preview.4/Runtime/IgnoreSnapAttribute.cs"
+"Library/PackageCache/com.unity.progrids@3.0.3-preview.6/Runtime/IgnoreSnap.cs"
+"Library/PackageCache/com.unity.progrids@3.0.3-preview.6/Runtime/IgnoreSnapAttribute.cs"
 -langversion:9.0
 
 /deterministic

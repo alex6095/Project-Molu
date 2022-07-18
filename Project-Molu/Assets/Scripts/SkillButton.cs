@@ -19,7 +19,7 @@ public class SkillButton : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoin
     // Start is called before the first frame update
     void Start()
     {
-        skillPrefab = Resources.Load("Prefabs/Skills/Skill_Sample") as GameObject;
+        skillPrefab = Resources.Load("Prefabs/SkillRanges/Skill_Sample") as GameObject;
         effectPrefab = Resources.Load("Prefabs/Effects/BigExplosion") as GameObject;
         skillDamage = 20;
 

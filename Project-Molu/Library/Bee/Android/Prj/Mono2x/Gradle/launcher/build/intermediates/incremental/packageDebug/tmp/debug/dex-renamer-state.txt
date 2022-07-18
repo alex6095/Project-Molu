@@ -1,0 +1,10 @@
+#Mon Jul 18 12:27:06 KST 2022
+path.2=classes_0.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex
+base.1=/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+base.0=/Users/alex6095/Documents/GitHub/Project-Molu/Project-Molu/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex

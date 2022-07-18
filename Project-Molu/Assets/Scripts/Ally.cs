@@ -5,20 +5,22 @@ using UnityEngine;
 public class Ally : MonoBehaviour
 {
     public float speed;
-    public float health;
     public float maxHealth;
+    public float health;
     public float attackRange;
+    public float attackDamage;
     public bool isRetire;
+    public bool isAttack;
     Animator animator;
+
+    public GameObject target;
 
     // Start is called before the first frame update
     void Start()
     {
         isRetire = false;
-        speed = 3;
-        maxHealth = 100;
+        isAttack = true;
         health = maxHealth;
-        attackRange = 0.5f;
 
         animator = GetComponent<Animator>();
     }
@@ -55,29 +57,33 @@ public class Ally : MonoBehaviour
 
             if (minIndex != -1)
             {
-                transform.LookAt(enemy[minIndex].transform);
+                target = enemy[minIndex];
 
-                Vector3 direction = enemy[minIndex].transform.position - gameObject.transform.position;
+                transform.LookAt(target.transform);
+
+                Vector3 direction = target.transform.position - gameObject.transform.position;
                 if (Vector3.Magnitude(direction) >= attackRange)// 같은 팀 친구들끼리 밀어서 적이 밀리게 됨 나중에 a* 알고리즘 등을 이용해 길찾기를 해서 같은팀도 피해갈 수 있도록 해야 한다
                 {
                     animator.SetBool("isRun", true);
-                    animator.SetBool("isPunch", false);
-                    direction = Vector3.Normalize(direction) * speed;
-                    GetComponent<Rigidbody>().velocity = direction;
+                    animator.SetBool("isAttack", false);
+                    direction = Vector3.Normalize(direction);
+                    GetComponent<Rigidbody>().velocity = direction * speed;
                 }
                 else
                 {
                     animator.SetBool("isRun", false);
-                    animator.SetBool("isPunch", true);
+                    animator.SetBool("isAttack", true);
                     GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
                 }
             }
             else
             {
                 animator.SetBool("isRun", false);
-                animator.SetBool("isPunch", false);
+                animator.SetBool("isAttack", false);
                 animator.SetBool("isEnd", true);
                 GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+
+                BattleManager.Instance.GameOver(true);
             }
         }
     }
@@ -101,5 +107,15 @@ public class Ally : MonoBehaviour
     public float getHPRate()
     {
         return health / maxHealth;
+    }
+
+    void AttackStart()
+    {
+        isAttack = true;
+    }
+
+    void AttackFinish()
+    {
+        isAttack = false;
     }
 }
