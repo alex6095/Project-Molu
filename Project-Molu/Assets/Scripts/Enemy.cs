@@ -76,14 +76,15 @@ public class Enemy : MonoBehaviour
                     GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
                 }
             }
-            else
+            else if (BattleManager.Instance.mode != 1)
             {
-                animator.SetBool("isRun", false);
-                animator.SetBool("isAttack", false);
-                animator.SetBool("isEnd", true);
                 GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
 
                 BattleManager.Instance.GameOver(false);
+            }
+            else
+            {
+                GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             }
         }
     }

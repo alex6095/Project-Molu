@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayFabMenuManager : MonoBehaviour
 {
-    //public static PlayFabMenuManager instance;
+    public static PlayFabMenuManager instance;
 
 
     public TMP_Text chrysoValueText;
@@ -21,11 +21,11 @@ public class PlayFabMenuManager : MonoBehaviour
     public TMP_Text lvText;
     public TMP_Text expText;
 
+    public string DisplayName;
 
     private void Awake()
     {
-        // Use for GetVirtualCurrencies
-        //instance = this;
+        instance = this;
     }
 
     // Get Virtual Currencies
@@ -64,6 +64,7 @@ public class PlayFabMenuManager : MonoBehaviour
 
         Debug.Log("The player's DisplayName profile data is: " + result.PlayerProfile.DisplayName);
         displayName.text = result.PlayerProfile.DisplayName;
+        DisplayName = result.PlayerProfile.DisplayName;
     }
 
     // Get Player Lv, Exp from User data(Player data)

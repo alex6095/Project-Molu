@@ -21,5 +21,12 @@ public class ContentsManager : MonoBehaviour
     {
         SceneManager.LoadScene("Organization");
     }
-
+    public void GoSurvivalButton()
+    {
+        SceneManager.LoadScene("Survival");
+    }
+    public void GoBackButton()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }

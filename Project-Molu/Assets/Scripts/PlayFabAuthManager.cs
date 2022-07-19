@@ -94,8 +94,10 @@ public class PlayFabAuthManager : MonoBehaviour
 
         // Scene 이동 -> MainMenu
         else
+        {
+            BGMManager.instance.PlayMainBGM();
             SceneManager.LoadScene("MainMenu");
-
+        }
     }
 
     public void SubmitNameButton()
@@ -110,6 +112,7 @@ public class PlayFabAuthManager : MonoBehaviour
     void OnDisplayNameUpdate(UpdateUserTitleDisplayNameResult result)
     {
         Debug.Log("Updated display name!");
+        BGMManager.instance.PlayMainBGM();
         SceneManager.LoadScene("MainMenu");
     }
 

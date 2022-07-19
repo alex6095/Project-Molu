@@ -169,6 +169,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillDamage: 0
   coolTime: 0
+  buttonIdx: 0
+  buttonImg: {fileID: 0}
+  rarity: {fileID: 0}
+  weapon: {fileID: 0}
 --- !u!1 &8581860130562532088
 GameObject:
   m_ObjectHideFlags: 0

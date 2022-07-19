@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Battle.unity
     guid: 2b9c659aeb5a34419b1343d4c4d70dcf
+  - enabled: 1
+    path: Assets/Scenes/SimpleNatureMap.unity
+    guid: 8b939375542c14ed1aedfdfe8dc3679d
+  - enabled: 1
+    path: Assets/Scenes/Survival.unity
+    guid: 6dc58127bffe0490b9bfafd87e902145
+  - enabled: 1
+    path: Assets/Scenes/Management.unity
+    guid: 9c4e6ab9c3b99d54c886d610792fc1e8
   m_configObjects: {}

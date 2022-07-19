@@ -4,9 +4,16 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 
+using UnityEngine.SceneManagement;
+
 
 public class PhotonManager : MonoBehaviourPunCallbacks
 {
+    public static PhotonManager instance;
+
+    // My player number
+    // 0 when not in the room
+    public int playerNo = 2;
 
     // Game Version
     private readonly string version = "1.0";
@@ -25,7 +32,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         PhotonNetwork.GameVersion = version;
 
         // 접속 유저의 닉네임 설정
-        PhotonNetwork.NickName = userId;
+        //PhotonNetwork.NickName = userId;
 
         // 포톤 서버와의 데이터 초당 전송 횟수
         // 기본은 초당 30회로 되어있
@@ -35,13 +42,16 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         // 포톤 서버 접속
         //PhotonNetwork.ConnectUsingSettings();
 
+
+        PhotonNetwork.ConnectUsingSettings();
+
+        instance = this;
     }
 
     public void FindMatch()
     {
         Debug.Log("Check");
-        //PhotonNetwork.JoinRandomRoom();
-        PhotonNetwork.ConnectUsingSettings();
+        PhotonNetwork.JoinRandomRoom();
     }
 
     // 포톤 서버에 접속 후 호출되는 콜백 함수
@@ -59,7 +69,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         Debug.Log($"PhotonNetwork.InLobby = {PhotonNetwork.InLobby}");
         //PhotonNetwork.JoinRandomOrCreateRoom
 
-        PhotonNetwork.JoinRandomRoom();
+        //PhotonNetwork.JoinRandomRoom();
 
         //base.OnJoinedLobby();
     }
@@ -86,6 +96,8 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     // 룸 생성이 완료된 후 호출되는 콜백 함수
     public override void OnCreatedRoom()
     {
+        playerNo = 1;
+
         Debug.Log("Created Room");
         Debug.Log($"Room Name = {PhotonNetwork.CurrentRoom.Name}");
         //base.OnCreatedRoom();
@@ -94,21 +106,24 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     // 룸에 입장한 후 호출되는 콜백 함수
     public override void OnJoinedRoom()
     {
+        //playerNo = 2;
+
         Debug.Log($"PhotonNetwork.InRoom = {PhotonNetwork.InRoom}");
         Debug.Log($"Player Count = {PhotonNetwork.CurrentRoom.PlayerCount}");
-
+        //Debug.Log($"ActorNumber = {PhotonNetwork.}");
         foreach (var player in PhotonNetwork.CurrentRoom.Players)
         {
             // NickName은 고유하지 않음, ActorNumber는 고유함
             Debug.Log($"{player.Value.NickName} , {player.Value.ActorNumber}");
         }
+        SceneManager.LoadScene("SimpleNatureMap");
         //base.OnJoinedRoom();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        PhotonNetwork.NickName = PlayFabMenuManager.instance.DisplayName;
     }
 
     // Update is called once per frame

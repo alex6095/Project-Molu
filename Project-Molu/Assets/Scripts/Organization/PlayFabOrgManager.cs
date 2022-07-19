@@ -9,11 +9,19 @@ using Newtonsoft.Json;
 
 public class PlayFabOrgManager : MonoBehaviour
 {
+    public static PlayFabOrgManager instance;
 
     public TMP_Text chrysoValueText;
     public TMP_Text emeraldValueText;
 
     public CharacterBox[] characterBoxes;
+
+    public List<Character> Team;
+
+    public void Awake()
+    {
+        instance = this;
+    }
 
     // Get Virtual Currencies
     public void GetVirtualCurrencies()
@@ -63,9 +71,12 @@ public class PlayFabOrgManager : MonoBehaviour
         if (result.Data != null && result.Data.ContainsKey("Team"))
         {
             List<Character> characters = JsonConvert.DeserializeObject<List<Character>>(result.Data["Team"].Value);
+            // For battle scene
+            Team = characters;
+
             for (int i=0; i < characterBoxes.Length; i++)
             {
-                characterBoxes[i].SetUi(characters[i]);
+                characterBoxes[i].SetUi(characters[i], i);
                 //Debug.Log(characters[i].stats.attackRange);
                 // 잘 출력 됨
             }

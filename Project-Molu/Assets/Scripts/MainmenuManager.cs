@@ -10,6 +10,10 @@ public class MainmenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("Contents");
     }
+    public void GoManagementButton()
+    {
+        SceneManager.LoadScene("Management");
+    }
 
     // Start is called before the first frame update
     void Start()

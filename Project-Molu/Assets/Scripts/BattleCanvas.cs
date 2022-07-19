@@ -16,6 +16,11 @@ public class BattleCanvas : MonoBehaviour
         HPBarPrefab = Resources.Load("Prefabs/UI/HP_Bar") as GameObject;
     }
 
+    void Start()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -39,5 +44,12 @@ public class BattleCanvas : MonoBehaviour
             HPBarObject.transform.parent = transform;
             HPBarObject.GetComponent<HPBarHandler>().targetCharacter = enemy[i];
         }
+    }
+
+    public void NewCharacterEntered(GameObject character)
+    {
+        HPBarObject = Instantiate(HPBarPrefab);
+        HPBarObject.transform.parent = transform;
+        HPBarObject.GetComponent<HPBarHandler>().targetCharacter = character;
     }
 }

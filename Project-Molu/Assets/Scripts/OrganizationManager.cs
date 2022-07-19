@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class OrganizationManager : MonoBehaviour
 {
-    public void GoBattleButton()
-    {
-        SceneManager.LoadScene("Battle");
-    }
+    //public void GoBattleButton()
+    //{
+    //    SceneManager.LoadScene("Battle");
+    //}
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +21,10 @@ public class OrganizationManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void GoBackButton()
+    {
+        SceneManager.LoadScene("Contents");
     }
 }

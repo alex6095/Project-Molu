@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class Ally : MonoBehaviour
+public class Ally : MonoBehaviour//, IPunObservable
 {
     public float speed;
     public float maxHealth;
@@ -15,6 +16,9 @@ public class Ally : MonoBehaviour
 
     public GameObject target;
 
+    float receiveHealth;
+    private PhotonView pv;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +27,17 @@ public class Ally : MonoBehaviour
         health = maxHealth;
 
         animator = GetComponent<Animator>();
+
+        pv = GetComponent<PhotonView>();
     }
 
     // Update is called once per frame
     void Update()
     {
         if (!BattleManager.Instance.IsBattlePhase()) return;
+
+
+
 
         if (isRetire)
         {
@@ -76,14 +85,15 @@ public class Ally : MonoBehaviour
                     GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
                 }
             }
-            else
+            else if (BattleManager.Instance.mode != 1)
             {
-                animator.SetBool("isRun", false);
-                animator.SetBool("isAttack", false);
-                animator.SetBool("isEnd", true);
                 GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
 
                 BattleManager.Instance.GameOver(true);
+            }
+            else
+            {
+                GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             }
         }
     }
@@ -118,4 +128,17 @@ public class Ally : MonoBehaviour
     {
         isAttack = false;
     }
+
+    //public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    //{
+    //    // 자신의 로컬 캐릭터인 경우 자신의 데이터를 다른 네트워크 유저에게 송신 
+    //    if (stream.IsWriting)
+    //    {
+    //        stream.SendNext(health);
+    //    }
+    //    else
+    //    {
+    //        receiveHealth = (float)stream.ReceiveNext();
+    //    }
+    //}
 }
