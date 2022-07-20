@@ -69,13 +69,19 @@ public class PlaceCharacterButton : MonoBehaviour, IDragHandler, IPointerUpHandl
                 Debug.Log("Ally_" + PlayFabOrgManager.instance.Team[buttonIdx].name);
                 characterObject = PhotonNetwork.Instantiate("Ally_" + PlayFabOrgManager.instance.Team[buttonIdx].name, new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 0));
                 characterObject.tag = "Ally";
-                
+
+                characterObject.GetComponent<Ally>().maxHealth = PlayFabOrgManager.instance.Team[buttonIdx].stats.maxHealth;
+                // 다른 스탯도 나중에 동기화
+
             }
             else
             {
                 Debug.Log("Enemy_" + PlayFabOrgManager.instance.Team[buttonIdx].name);
                 characterObject = PhotonNetwork.Instantiate("Enemy_" + PlayFabOrgManager.instance.Team[buttonIdx].name, new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 0));
                 characterObject.tag = "Enemy";
+
+                characterObject.GetComponent<Enemy>().maxHealth = PlayFabOrgManager.instance.Team[buttonIdx].stats.maxHealth;
+                // 다른 스탯도 나중에 동기화
             }
             // playerNo can not be 0
 

@@ -439,6 +439,7 @@
 "Assets/Scripts/HPBarHandler.cs"
 "Assets/Scripts/Magic.cs"
 "Assets/Scripts/MainmenuManager.cs"
+"Assets/Scripts/Management/PlayFabManageManager.cs"
 "Assets/Scripts/ManagementManager.cs"
 "Assets/Scripts/Organization/CharacterBox.cs"
 "Assets/Scripts/Organization/PlayFabOrgManager.cs"

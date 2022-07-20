@@ -42,7 +42,7 @@ public class SkillObject : MonoBehaviour
         Vector3 bottom = new Vector3(transform.localPosition.x, transform.localPosition.y - 2, transform.localPosition.z);
         Collider[] colls = Physics.OverlapCapsule(top, bottom, transform.localScale.x / 2);
 
-        float skillDamage = 1000;
+        float skillDamage = 70;
 
         if (isMySkill) {
             if (PhotonManager.instance.playerNo == 1)
